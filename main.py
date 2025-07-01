@@ -2,6 +2,7 @@ import streamlit as st
 from openai import OpenAI
 import base64
 
+#pip install openai streamlit
 # ------------------ CONFIG -------------------
 
 api_key = st.secrets["OPENAI_API_KEY"]
