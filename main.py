@@ -8,7 +8,7 @@ import base64
 api_key = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=api_key)
 
-st.set_page_config(layout="wide", page_title="Image Q&A Chatbot")
+st.set_page_config(layout="wide", page_title="Image Q&A Chatbot App")
 st.title("🧠 Image Q&A Chatbot")
 
 # ------------------ SESSION INIT -------------------
